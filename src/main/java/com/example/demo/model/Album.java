@@ -7,10 +7,10 @@ import org.springframework.data.mongodb.core.mapping.DBRef;
 
 public class Album {
 @Id
-String id;
-String albumname;
-String songno;
-String alreleasedate;
+private String id;
+private String albumname;
+private String songno;
+private String alreleasedate;
 
 private List<Tracks> tracks;
 
